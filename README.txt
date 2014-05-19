@@ -1,12 +1,12 @@
                           
-						  *******************************************
-                          *                                         *
-                          *  First Hello                            *
-                          *  World program                          *
-                          *                                         *
-                          *  Using the Spring MVC framework         *
-                          *                                         *             
-                          *******************************************
+ *******************************************
+ *                                         *
+ *  First Hello                            *
+ *  World program                          *
+ *                                         *
+ *  Using the Spring MVC framework         *
+ *                                         *             
+ *******************************************
 
 
 This has NOT been setup, tested or run on a Windows
