@@ -9,6 +9,11 @@
  *******************************************
 
 
+Intent of this App:
+To learn what a controller is and how it connects to the "view" of MVC.
+
+
+
 This has NOT been setup, tested or run on a Windows
 platform. If one wants to try on a Windows platform, please make sure all variables are set correctly.
 This hello world project was build using the following:
@@ -62,6 +67,18 @@ For steps 5 & 6, you can append '?name=<your name here>' which will output 'Hell
 of the traditional Hello, World!!.
 
 
+Lessons Learned:
+controller - Handles the request and returns the appropriate model and view.
+             In this case, there was one model. The GreetingController has a method called greeting
+			 that maps to the views resource/spring directory greeting.html view (V of the 'MVC'). The GreetingController
+			 returns greeting.
+
+model -      Binds the name to the name paramter that is being passed in on the greeting method.
+             The name value is not used by default. However you can use it if you would like. Just have to 
+		     append it to the end of the localhost URL. See 'Alternate run' above.
+
+view -       What the user sees. Here I am using Thymeleaf which performs the server side html renderings.
+             th:text is evaluated.
 
 
 Links:
